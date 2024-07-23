@@ -37,7 +37,7 @@
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},},
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
-    {"id":{"name":"Script1","path":"scripts/Script1/Script1.yy",},},
+    {"id":{"name":"script_macros","path":"scripts/script_macros/script_macros.yy",},},
     {"id":{"name":"sPlayerDown","path":"sprites/sPlayerDown/sPlayerDown.yy",},},
     {"id":{"name":"sPlayerLeft","path":"sprites/sPlayerLeft/sPlayerLeft.yy",},},
     {"id":{"name":"sPlayerRight","path":"sprites/sPlayerRight/sPlayerRight.yy",},},

@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"Script1",
+  "%Name":"script_macros",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"Script1",
+  "name":"script_macros",
   "parent":{
     "name":"RPG",
     "path":"RPG.yyp",
