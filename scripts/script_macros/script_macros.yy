@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"script_macros",
   "parent":{
-    "name":"RPG",
-    "path":"RPG.yyp",
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

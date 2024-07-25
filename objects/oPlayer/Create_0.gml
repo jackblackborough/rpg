@@ -11,3 +11,4 @@ sprite[UP] = sPlayerUp;
 sprite[DOWN] = sPlayerDown;
 
 face = DOWN;
+depth = -50;
