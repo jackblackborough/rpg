@@ -34,5 +34,5 @@
     "path":"sprites/sWall/sWall.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

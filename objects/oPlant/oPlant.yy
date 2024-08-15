@@ -6,8 +6,8 @@
   "name":"oPlant",
   "overriddenProperties":[],
   "parent":{
-    "name":"RPG",
-    "path":"RPG.yyp",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
   "parentObjectId":{
     "name":"oWall",

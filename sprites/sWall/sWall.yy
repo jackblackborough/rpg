@@ -19,7 +19,7 @@
   "height":16,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"f6c51d3e-17e5-43c9-9951-4be937d118ba","blendMode":0,"displayName":"default","isLocked":false,"name":"f6c51d3e-17e5-43c9-9951-4be937d118ba","opacity":7.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"f6c51d3e-17e5-43c9-9951-4be937d118ba","blendMode":0,"displayName":"default","isLocked":false,"name":"f6c51d3e-17e5-43c9-9951-4be937d118ba","opacity":99.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"sWall",
   "nineSlice":{
