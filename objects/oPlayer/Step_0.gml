@@ -43,30 +43,41 @@ var interactKeyPressed = keyboard_check(vk_space);
 			   
 		///	state = movementState   
 		 //  }
-	//	}  
-		   
-		   
-		   
+	//}
 		   
 		   //make block move when interact key presssed
 								  
-							if interactKeyPressed
-							{
-								var _checkDir = face * 90;
+			if interactKeyPressed
+			{
+				var _checkDir = face * 90;
 	
 
-								var _checkX = x + lengthdir_x(interactDist, _checkDir);
-								var _checkY = y + lengthdir_y(interactDist, _checkDir);
-								var _pushBlockInst = instance_place(_checkX, _checkY, oBlock)
+				var _checkX = x + lengthdir_x(interactDist, _checkDir);
+				var _checkY = y + lengthdir_y(interactDist, _checkDir);
+				var _pushBlockInst = instance_place(_checkX, _checkY, oBlock)
 	
-								if instance_exists(_pushBlockInst)&& _pushBlockInst.sliding == false
-								{
-									_pushBlockInst.sliding = true;
-									_pushBlockInst.faceDir = oPlayer.face;
+				if instance_exists(_pushBlockInst)&& _pushBlockInst.sliding == false
+				{
+					_pushBlockInst.sliding = true;
+					_pushBlockInst.faceDir = face;
 		
-								}
-							}
+				}
+			}
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+//movement control
 		if movementControl == true
 		{
 

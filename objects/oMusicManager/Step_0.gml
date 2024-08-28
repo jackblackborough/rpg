@@ -1,0 +1,31 @@
+/// @description Insert description here
+// You can write your code in this editor
+var _finalMusicVol = global.musicVolume*global.MasterVolume;
+
+if songAsset != targetSongAsset
+{
+	    if audio_exists(targetSongAsset)
+	    {
+		    songInstance = audio_play_sound(targetSongAsset, 4 , true);	
+			audio_sound_gain(songInstance, 0, 0);
+			fadeInInstVol = 0;
+		}
+	songAsset = targetSongAsset;
+}
+
+	
+if audio_is_playing(songInstance)
+	{
+		if startFadeInTime > 0
+		{
+			if fadeInInstVol > 1{fadeInInstVol += 1/startFadeInTime;}else{ fadeInInstVol = 1;}
+		
+		}
+        else
+		{
+		fadeInInstVol = 1;	
+			
+		}
+		
+		audio_sound_gain(songInstance, fadeInInstVol*_finalMusicVol, 0);
+	}

@@ -6,8 +6,8 @@
   "name":"oIce2",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"ice sliding",
+    "path":"folders/ice sliding.yy",
   },
   "parentObjectId":null,
   "persistent":false,

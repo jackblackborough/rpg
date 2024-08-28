@@ -6,8 +6,8 @@
   "name":"oTree3",
   "overriddenProperties":[],
   "parent":{
-    "name":"block pushing",
-    "path":"folders/block pushing.yy",
+    "name":"ice sliding",
+    "path":"folders/ice sliding.yy",
   },
   "parentObjectId":{
     "name":"oWall",

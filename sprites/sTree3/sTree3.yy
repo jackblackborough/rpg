@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"block pushing",
-    "path":"folders/block pushing.yy",
+    "name":"ice sliding",
+    "path":"folders/ice sliding.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
