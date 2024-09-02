@@ -49,17 +49,28 @@ var interactKeyPressed = keyboard_check(vk_space);
 								  
 			if interactKeyPressed
 			{
-				var _checkDir = face * 90;
-	
-
+				show_debug_message("Pushed: " + string(interactKeyPressed));
+				
+				var _checkDir = oPlayer.face * 90;
+				
+				if (oPlayer.face == 3) {
+					_checkDir = 90;
+				}
+				
+				if (oPlayer.face == 1) {
+					_checkDir = 270;
+				}
+				
 				var _checkX = x + lengthdir_x(interactDist, _checkDir);
 				var _checkY = y + lengthdir_y(interactDist, _checkDir);
 				var _pushBlockInst = instance_place(_checkX, _checkY, oBlock)
+				show_debug_message("_pushBlockInst: " + string(_pushBlockInst));
 	
-				if instance_exists(_pushBlockInst)&& _pushBlockInst.sliding == false
+				if instance_exists(_pushBlockInst) && _pushBlockInst.sliding == false
 				{
 					_pushBlockInst.sliding = true;
-					_pushBlockInst.faceDir = face;
+					_pushBlockInst.faceDir = oPlayer.face;
+
 		
 				}
 			}

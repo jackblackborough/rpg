@@ -28,7 +28,7 @@ if sliding = false
   if sliding = true
   {
 	  //get directinon and target x and y
-			var _realDir = faceDir * 90;
+			var _realDir = oPlayer.face * 90;
 			var _targetXDist = lengthdir_x(gridSpace, _realDir);
 			var _targetYDist = lengthdir_y(gridSpace, _realDir);
 			targetX = startPointX + _targetXDist;
@@ -82,6 +82,8 @@ if sliding = false
    x += xspd;
    y += yspd;
    
-   if xspd == 0 && yspd == 0{sliding = false}
+   if xspd == 0 && yspd == 0 {
+	   sliding = false
+	}
    
    depth = -bbox_bottom;
