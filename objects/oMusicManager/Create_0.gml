@@ -5,10 +5,12 @@ global.MasterVolume = 1;
 
 songInstance = noone;
 songAsset = noone;
-targetSongAsset =soundIceArea;
+targetSongAsset = noone;
 endFadeOutTime = 0;
 startFadeInTime = 0;
 fadeInInstVol = 1;
+
+
 fadeOutInstances = array_create(0);
 fadeOutInstVolume = array_create(0);
 fadeOutInstTime = array_create(0);

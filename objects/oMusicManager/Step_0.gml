@@ -51,7 +51,7 @@ for(var i = 0; i < array_length(fadeOutInstances); i++ )
 {
    if fadeOutInstTime[i] > 0
    {
-	 if fadeOutInstVolume[i]{fadeInInstVol[i] -= 1/fadeOutInstTime[i];};   
+	 if fadeOutInstVolume[i] > 0 {fadeOutInstVolume[i] -= 1/fadeOutInstTime[i];};   
 	   
    }
    else
