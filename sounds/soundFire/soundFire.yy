@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"soundFire",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":15.20325,
+  "name":"soundFire",
+  "parent":{
+    "name":"sound effecs",
+    "path":"folders/sound effecs.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"soundFire.mp3",
+  "type":0,
+  "volume":0.99,
+}
